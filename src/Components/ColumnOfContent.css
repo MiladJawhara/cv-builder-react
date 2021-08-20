@@ -1,0 +1,45 @@
+.col-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.btn-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-plus .icon {
+  color: lightgray;
+  font-size: 3rem;
+}
+
+.cog {
+  color: lightgray;
+  position: absolute;
+  font-size: "1.2rem";
+  top: 0;
+  right: 0;
+}
+
+.btn-plus .icon:hover,
+.cog:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.color-picker {
+  position: absolute;
+  top: 105%;
+}
+
+.element-adder {
+  position: absolute;
+  top: 50%;
+  left: 105%;
+  transform: translate(0, -50%);
+  z-index: 9999;
+}
